@@ -107,10 +107,13 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none
+
+    
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
+    
 }
 .site-nav .link.current,
 .contacts .link.current,
@@ -669,7 +672,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);    
     opacity: 0;
-    
+        
     color: var(--hat-text-color);
 }
 
