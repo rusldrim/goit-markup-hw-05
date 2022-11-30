@@ -179,6 +179,7 @@ img {
 /* ШАПКА */
 
 .hat {
+    
     max-width: 1600px;
         margin-left: auto;
         margin-right: auto;
@@ -835,8 +836,8 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    width: 1600px;
-    height: 1024px;
+    width: 100%;
+    height: 100%;
    
 
     background-color: rgba(0, 0, 0, 0.2);
@@ -851,14 +852,14 @@ img {
 }
 
 .backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scale(0.9);
+    transform: translate(-50%, -50%) scale(1.1);
 }
 
 .modal {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
 
     width: 528px;
     height: 581px;
@@ -883,7 +884,6 @@ img {
     
     background-color: var(--hat-text-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-
 
 }
 
