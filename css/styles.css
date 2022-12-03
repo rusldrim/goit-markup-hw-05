@@ -674,9 +674,14 @@ img {
     opacity: 1;
 }
 
+.card-thumb:hover .overlay-text {
+    display: block;
+}
+
 .overlay-text {
 
     position: absolute;
+    display: none;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
